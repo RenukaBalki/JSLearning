@@ -1,0 +1,23 @@
+var bankName;
+console.log("Before initialisation :" , bankName);
+var bankName="SBI Bank";
+console.log("After Initialisatin :" , bankName);
+console.log("Type of :", typeof bankName);
+console.log(".............................................................................");
+var marks='90%';
+console.log ("After Initialisatin :", marks);
+console.log( "Type of :", typeof marks);
+console.log(".............................................................................");
+var isWorking;
+console.log("Before initialisation :", isWorking);
+ isWorking=true;
+ console.log( "After Initialisatin :", isWorking);
+ console.log("Type of :", typeof isWorking);
+ console.log(".............................................................................");
+ var totalCount="hundreds and Seven";
+ console.log("After Initialisatin :", totalCount);
+ console.log( "Type of :", typeof totalCount);
+ totalCount=107;
+ console.log("Changed the value ", totalCount);
+ console.log("Type of :", typeof totalCount);
+

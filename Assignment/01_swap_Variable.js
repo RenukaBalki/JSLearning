@@ -1,0 +1,17 @@
+var sweety="Sweety";
+var cutie="Cutie";
+console.log("var 1 :" ,sweety ,",var 2 :",cutie);
+var temp=sweety;
+sweety=cutie;
+cutie=temp;
+console.log("After swaping var 1 :sweety :",sweety ,",var 2 :cutie :",cutie);
+console.log(".................................................................................");
+var num1=100;
+var num2=200;
+var num3=300;
+console.log("var 1 :",num1 ,",var 2 :",num2,",var 3 :",num3);
+var temp1=num1;
+num1=num2;
+num2=num3;
+num3=temp1;
+console.log("After swaping var 1 :100 : to",num1 ,",var 2 :200 : to",num2,",var 3:300: to",num3);
