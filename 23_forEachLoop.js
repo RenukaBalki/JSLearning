@@ -66,3 +66,18 @@ class Student {
  map.forEach( (value, key)=> {
     console.log(`Value: ${value}, Key: ${key}`);
  } );
+
+ arrayStudent.sort(   (a,b)=>{
+              if (a.fullName>b.fullName) {
+                return +1;
+              }
+              else if (a.fullName<b.fullName) {
+                return -1;
+              }
+              else
+              return 0;
+ }      )
+
+ arrayStudent.forEach( (student)=> {
+  console.log(student.rollNo, student.fullName, student.emailId);
+});
