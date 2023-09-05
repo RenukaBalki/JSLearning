@@ -16,3 +16,13 @@ function display(){
 var show = function(){
     console.log(`inside show function`);
 }
+
+let arr=[];
+console.log(Array.isArray(arr));
+
+let name="Shweta";
+console.log(Array.isArray(name));
+
+let obj={};
+console.log(typeof obj);
+console.log(Array.isArray(obj));
